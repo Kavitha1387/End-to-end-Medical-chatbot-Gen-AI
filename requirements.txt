@@ -1,11 +1,16 @@
 sentence-transformers==2.2.2
-langchain
+langchain>=0.2.2
 flask
 pypdf
 python-dotenv
 pinecone[grpc]
 langchain-pinecone
+langchain-community
+langchain-huggingface
+sentence-transformers
+huggingface-hub
 langchain_community
 langchain_openai
 langchain_experimental
--e .
+pip install huggingface_hub[hf_xet]
+pip install hf_xet
